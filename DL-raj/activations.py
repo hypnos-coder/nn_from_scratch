@@ -10,4 +10,4 @@ def mse(y_true, y_predicted):
     return np.mean(np.power(y_true-y_predicted,2))
 
 def prime_mse(y_true, y_predicted):
-    return 2*(y_true-y_predicted)/y_true.input_size
+    return 2*(y_true-y_predicted)/y_true.size
